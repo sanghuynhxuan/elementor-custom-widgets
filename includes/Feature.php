@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
-namespace SangPortfolio;
+namespace SangPortfolio\ElementorCustomWidgets;
 if (! defined('ABSPATH')) { exit; }
-final class ElementorCustomWidgetsFeature {
+final class Feature {
     private const OPTION = 'elementor_custom_widgets_enabled';
     private const SLUG = 'elementor-custom-widgets';
     private const TITLE = 'Elementor Custom Widgets';
