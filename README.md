@@ -1,26 +1,18 @@
 # Elementor Custom Widgets
 
-Reusable custom Elementor widget patterns for high-performance WordPress builds.
+A working custom Elementor notice widget registration example.
 
-## Client value
+## Functional scope
 
-Maintainable widget architecture, controls, and reusable design-system components.
-
-This public reference implementation demonstrates a maintainable approach to WordPress and WooCommerce client work: clean extension points, predictable deployment, and focused code.
-
-## What this starter includes
-
-- A guarded WordPress plugin bootstrap
-- A namespaced, object-oriented entry point
-- A dedicated action hook for project-specific integrations
-- A concise structure that can be expanded safely for production needs
+- Runs as a standalone WordPress plugin
+- Includes an admin settings screen and an enable/disable option
+- Implements real WordPress or WooCommerce hooks for the stated workflow
+- Cleans up its option on uninstall
 
 ## Installation
 
-1. Clone or download this repository into `wp-content/plugins/`.
-2. Activate it in **Plugins** in wp-admin.
-3. Extend the documented action hook for the client's workflow.
+Copy this repository into `wp-content/plugins/elementor-custom-widgets`, activate it, then open **Settings → Elementor Custom Widgets**.
 
-## Notes
+## Production note
 
-This repository is a focused portfolio starter, not a replacement for a full discovery, QA, or production deployment process.
+This is a working reference implementation intended for discovery and adaptation to a client’s requirements. Test on staging before deployment.
